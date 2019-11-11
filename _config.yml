@@ -13,10 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-# For example configuration options:
+heath: "Heath's name"
 # https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
 # https://mmistakes.github.io/minimal-mistakes/
-title: "" #ToiletHill.io
+
+# For example configuration options:
+title: "" 
 logo: assets/images/logo/ToiletHill_header.png
 email: CodeHappens@ToiletHill.io
 description: >- # this means to ignore newlines until "baseurl:"
@@ -34,11 +36,12 @@ repository: heathdrobertson/heathdrobertson.github.io
 theme: minimal-mistakes-jekyll
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Mountain # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
   - _pages
@@ -97,6 +100,12 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# Collections
+collections:
+    notes:
+        output: true
+        permalink: /:collection/:path/
+
 defaults:
   # _posts
   - scope:
@@ -116,6 +125,15 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _notes
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
 
 category_archive:
   type: liquid
@@ -123,3 +141,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style

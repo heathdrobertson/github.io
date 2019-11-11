@@ -1,10 +1,8 @@
 ---
-permalink: /notes/
-title: "Notes"
+permalink: /notes/jekyll
+title: "Jekyll"
+excerpt: "Jekyll website processes and tools to remember."
 ---
-
-# Jekyll Notes
-
 
 ### Adding a subsection to a site:
 1. Create a file ```file_name.md```
