@@ -2,6 +2,8 @@
 title: "Bash"
 permalink: /notes/bash
 excerpt: "Bash related tools to remember."
+header:
+    teaser: /assets/images/unsplash-image-2.jpg
 ---
 
 

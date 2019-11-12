@@ -1,6 +1,10 @@
-# GitHub Notes
+---
+permalink: /notes/github
+title: "GitHub"
+excerpt: "GitHub tools and configurations."
+---
 
-### Setting up 2 Factor Auth and Cloneing repos with HTTPS
+### Setting up 2 Factor Auth and Cloning repos with HTTPS
 
 [Caching your GitHub password in Git](https://help.github.com/en/github/using-git/caching-your-github-password-in-git)
 

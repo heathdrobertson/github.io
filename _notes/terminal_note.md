@@ -1,5 +1,8 @@
-# Terminal Notes
-
+---
+permalink: /notes/terminal
+title: "Terminal"
+excerpt: "Terminal notes, tools and configurations."
+---
 
 ### PowerLine Shell
 - ```~/.config/powerline-shell/```

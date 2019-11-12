@@ -17,4 +17,10 @@ excerpt: "Jekyll website processes and tools to remember."
 1. Add the new **Section** to the ```navigation.yml``` file.
 
 
+### Links
+
+[Font Awsome Icons](https://fontawesome.com/icons?d=gallery)
+[The internet’s source of freely useable images.](https://unsplash.com)
+
+
 

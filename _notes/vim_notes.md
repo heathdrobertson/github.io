@@ -1,4 +1,8 @@
-# Vim Notes
+---
+permalink: /notes/vim
+title: "Vim"
+excerpt: "Vim and NeoVim tools and configurations."
+---
 
 To exit Vim, run commands in terminal and return to Vim as you left it.
 

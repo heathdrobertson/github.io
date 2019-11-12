@@ -1,36 +1,22 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
+# Site Settings
 # in the templates via {{ site.myvariable }}.
 heath: "Heath's name"
 # https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml
-# https://mmistakes.github.io/minimal-mistakes/
 
-# For example configuration options:
+# Configuration Options:
+locale: "en-US"
 title: "" 
+subtitle: ""
 logo: assets/images/logo/ToiletHill_header.png
 email: CodeHappens@ToiletHill.io
 description: >- # this means to ignore newlines until "baseurl:"
     ToiletHill.io is a blog dedicated to recording the journey of self-teaching computer programming and development. Technologies include; Mac, Linux, Command Line, Vim, Bash, Docker, GitHub, Python, Haskell, Rust, JavaScript, CSS, HTML, Solidity, Plutus, Nodejs, Jekyll, Markdown, NixOs & nix Shell, Jupyter Lab (Python & Haskell), Bitcoin, Ethereum, Cardano, Holochain and most likely others.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ToiletHill.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: HeathDRobertson
-github_username:  HeathDRobertson
-github: heathdrobertson
+teaser: /assets/images/unsplash-image-3.jpg
 minimal_mistakes_skin: air
 search: true
-repository: heathdrobertson/heathdrobertson.github.io
+breadcrumbs: false
 
 # Build settings
 theme: minimal-mistakes-jekyll
@@ -41,25 +27,17 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: Mountain # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Denver # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
+# Reading Files
 include:
   - _pages
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock
   - gemset.nix
   - post.nix
   - README.md
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 # Plugins (previously gems:)
 plugins:
@@ -70,6 +48,10 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+twitter_username: HeathDRobertson
+github_username:  HeathDRobertson
+github: heathdrobertson
+repository: heathdrobertson/heathdrobertson.github.io
 author:
   name   : "Heath Robertson"
   avatar : "/assets/images/heath-robertson-bio-photo.jpg"
@@ -100,12 +82,33 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# Archive
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
 # Collections
 collections:
     notes:
         output: true
         permalink: /:collection/:path/
 
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -120,7 +123,7 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
@@ -134,15 +137,4 @@ defaults:
       author_profile: true
       share: true
       comment: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+      teaser: true
