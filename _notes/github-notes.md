@@ -20,3 +20,10 @@ header:
 ```bash
 dig toilethill.io +noall +answer
 ``
+
+
+### Config Files
+- [.gitconfig](https://git-scm.com/docs/git-config)
+- [.git-credential](https://git-scm.com/docs/git-credential)
+- [.gitignore_global]()
+- [.gitmessage]()
