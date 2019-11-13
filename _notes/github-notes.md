@@ -23,7 +23,9 @@ dig toilethill.io +noall +answer
 
 
 ### Config Files
-- [.gitconfig](https://git-scm.com/docs/git-config)
-- [.git-credential](https://git-scm.com/docs/git-credential)
-- [.gitignore_global]()
-- [.gitmessage]()
+
+- [Customizing Git - Git Configuration](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration)
+    - [.gitconfig](https://git-scm.com/docs/git-config)
+- [Git Tools - Credential Storage](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
+    - [.git-credential](https://git-scm.com/docs/git-credential)
+- [Commit Template .gitmessage]()
