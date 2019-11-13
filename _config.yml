@@ -13,7 +13,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     ToiletHill.io is a blog dedicated to recording the journey of self-teaching computer programming and development. Technologies include; Mac, Linux, Command Line, Vim, Bash, Docker, GitHub, Python, Haskell, Rust, JavaScript, CSS, HTML, Solidity, Plutus, Nodejs, Jekyll, Markdown, NixOs & nix Shell, Jupyter Lab (Python & Haskell), Bitcoin, Ethereum, Cardano, Holochain and most likely others.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ToiletHill.io" # the base hostname & protocol for your site, e.g. http://example.com
-teaser: /assets/images/unsplash-image-3.jpg
+teaser: /assets/images/teaser_image_bash.png
 minimal_mistakes_skin: air
 search: true
 breadcrumbs: false
@@ -48,39 +48,54 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
-twitter_username: HeathDRobertson
-github_username:  HeathDRobertson
-github: heathdrobertson
+# Social Sharing
+twitter:
+  username: HeathDRobertson
+github-username:  HeathDRobertson
+linkedin:
+  username: HeathDRobertson
+facebook:
+  username: HeathDRobertson
 repository: heathdrobertson/heathdrobertson.github.io
+
 author:
   name   : "Heath Robertson"
   avatar : "/assets/images/heath-robertson-bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Chasing down my digital engineering dream."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "http://www.heathrobertson.com"
+    - label: "Email"
+      icon: "fas fa-envelope-square"
+      url: "mailto:CodeHappens@ToiletHill.io?subject=Mail from ToiletHill.io"
+    - label: "Telegram"
+      icon: "fab fa-telegram"
+      url: "https://t.me/HeathDRobertson"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/HeathDRobertson"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/heathdrobertson"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/HeathDRobertson"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+    - label: "Telegram"
+      icon: "fab fa-telegram"
+      url: "https://t.me/HeathDRobertson"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/HeathDRobertson"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/heathdrobertson"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/HeathDRobertson"
 
 # Archive
 category_archive:
@@ -138,3 +153,5 @@ defaults:
       share: true
       comment: true
       teaser: true
+      toc: true
+      toc_icon: "scroll"

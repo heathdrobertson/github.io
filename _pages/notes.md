@@ -7,4 +7,4 @@ entries_layout: grid
 classes: wide
 ---
 
-Sample document listing for the collection `_notes`.
+Document listing for the `_notes` collection.

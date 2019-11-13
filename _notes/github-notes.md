@@ -2,6 +2,9 @@
 permalink: /notes/github
 title: "GitHub"
 excerpt: "GitHub tools and configurations."
+toc_label: "GitHub TOC"
+header:
+    teaser: /assets/images/github_teaser_image.png
 ---
 
 ### Setting up 2 Factor Auth and Cloning repos with HTTPS

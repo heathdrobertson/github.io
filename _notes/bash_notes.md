@@ -1,12 +1,10 @@
 ---
-title: "Bash"
-permalink: /notes/bash
-excerpt: "Bash related tools to remember."
+title: "Dapps"
+permalink: /notes/dapps
+excerpt: "Bitcoin, Ethereum, Cardano, Holochain"
+toc_label: "Dapps TOC"
 header:
-    teaser: /assets/images/unsplash-image-2.jpg
+    teaser: /assets/images/dapps_teaser_image.png
 ---
 
-
-> This is content here, and can be a few lines long.
-
-> This is another carrot, <cite>From Heath's Book of Wisdom</cite>
+This will eventually be multiple files.
