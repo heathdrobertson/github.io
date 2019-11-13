@@ -28,4 +28,4 @@ dig toilethill.io +noall +answer
     - [.gitconfig](https://git-scm.com/docs/git-config)
 - [Git Tools - Credential Storage](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
     - [.git-credential](https://git-scm.com/docs/git-credential)
-- [Commit Template .gitmessage]()
+- [Commit Template .gitmessage](https://thoughtbot.com/blog/5-useful-tips-for-a-better-commit-message)
