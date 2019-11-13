@@ -29,3 +29,11 @@ dig toilethill.io +noall +answer
 - [Git Tools - Credential Storage](https://git-scm.com/book/en/v2/Git-Tools-Credential-Storage)
     - [.git-credential](https://git-scm.com/docs/git-credential)
 - [Commit Template .gitmessage](https://thoughtbot.com/blog/5-useful-tips-for-a-better-commit-message)
+
+#### Config error
+- After moving config files to different directory
+- Fixing this error ```git: 'credential---file=~/.git-credentials' is not a git command. See 'git --help'.```
+- ```git config --unset credential.helper``` you may need to add the ```--global``` flag.
+- To check your config settings ```git config --list```
+- To find which helpers you have ```git help -a | grep credential-```
+- Point to your hellper ```git config --global credential.helper <helper-name>``` 
