@@ -28,6 +28,7 @@ permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: America/Denver # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+github: HeathDRobertson
 
 # Reading Files
 include:
@@ -51,7 +52,7 @@ plugins:
 # Social Sharing
 twitter:
   username: HeathDRobertson
-github-username:  HeathDRobertson
+github-username: HeathDRobertson
 linkedin:
   username: HeathDRobertson
 facebook:

@@ -1,0 +1,12 @@
+{
+    "path": {
+        "computing systems": ["Ubuntu", "Mac OSX"],
+        "terminal": ["Terminator", "iTerm2"],
+        "command line": ["Bash"],
+        "editor": ["Vim", "NeoVim"]
+    },
+    "links": {
+        "ToiletHill.io": "https://ToiletHill.io",
+        "Google": "https://www.google.com"
+    }
+}

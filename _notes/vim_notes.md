@@ -7,7 +7,8 @@ header:
     teaser: /assets/images/vim_teaser_image.png
 ---
 
-To exit Vim, run commands in terminal and return to Vim as you left it.
+### NeoVim Configuration File
+<script src="https://gist.github.com/heathdrobertson/5c3610fca1ed0a8fe8bff9faf85e1b7b.js"></script>
 
 ### Using Terminal from within Vim
 - To pause Vim and go to a terminal:
