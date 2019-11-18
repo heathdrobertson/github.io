@@ -6,6 +6,12 @@ toc_label: "Vim TOC"
 header:
     teaser: /assets/images/vim_teaser_image.png
 ---
+## Tricks
+
+### Format Json
+```bash
+%!python -m json.tool
+```
 
 ### NeoVim Configuration File
 <script src="https://gist.github.com/heathdrobertson/5c3610fca1ed0a8fe8bff9faf85e1b7b.js"></script>

@@ -6,12 +6,10 @@ categories:
 tags:
   - Welcome
   - tools
+header:
+    teaser: /assets/images/teaser_image_place_holder.jpg
 ---
+## Tools
 
-<ul>
-{% for path in site.data.path.path %}
-<li>
-	{{ path[0] }} - {{ path }}
-</li>
-{% endfor %}
-</ul>
+
+<a href="{{ site.data.links.toilethill }}" target="_blank">ToiletHill.io</a>

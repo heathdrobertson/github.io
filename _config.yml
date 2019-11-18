@@ -13,7 +13,7 @@ description: >- # this means to ignore newlines until "baseurl:"
     ToiletHill.io is a blog dedicated to recording the journey of self-teaching computer programming and development. Technologies include; Mac, Linux, Command Line, Vim, Bash, Docker, GitHub, Python, Haskell, Rust, JavaScript, CSS, HTML, Solidity, Plutus, Nodejs, Jekyll, Markdown, NixOs & nix Shell, Jupyter Lab (Python & Haskell), Bitcoin, Ethereum, Cardano, Holochain and most likely others.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ToiletHill.io" # the base hostname & protocol for your site, e.g. http://example.com
-teaser: /assets/images/teaser_image_bash.png
+teaser: /assets/images/teaser_image_place_holder.jpg
 minimal_mistakes_skin: air
 search: true
 breadcrumbs: false
@@ -22,6 +22,7 @@ breadcrumbs: false
 theme: minimal-mistakes-jekyll
 markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
+excerpt_separator: "<!--more-->"
 
 # Outputting
 permalink: /:categories/:title/
