@@ -5,6 +5,7 @@ excerpt: "Bash related tools to remember."
 toc_label: "Bash TOC"
 header:
     teaser: /assets/images/bash_teaser_image.png
+    overlay_color: "#616261"
 ---
 
 ## Bash Tricks
@@ -28,7 +29,7 @@ while read c; do
 done < containers.txt
 ```
 
-### Create Mulitple Files
+### Create Multiple Files
 
 1. Create a list of file names:
 ```bash
@@ -40,3 +41,19 @@ lst="Sphere Cube Cuboid"
 for i in $lst; do touch "$i".hs; done
 ```
 3. `unset lst` to remove the variable.
+
+
+### Command Line Hacks
+
+```bash
+curl https://image.shutterstock.com/image-vector/cute-frog-cartoon-260nw-366900380.jpg --ouput frog.jpg
+```
+
+```bash
+touch hello.txt && echo "I am a dev" >> hello.txt
+```
+
+- Create variable with a name, make a directory and cd into that directory
+```bash
+p=practice && mkdir "$p" && cd "$p"
+```

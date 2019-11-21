@@ -5,6 +5,7 @@ excerpt: "Terminal notes, tools and configurations."
 toc_label: "Terminal TOC"
 header:
     teaser: /assets/images/terminal_teaser_image.png
+    overlay_color: "#616261"
 ---
 
 ### PowerLine Shell

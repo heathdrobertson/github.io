@@ -5,6 +5,7 @@ excerpt: "Python and Jupyter Notebooks."
 toc_label: "Python TOC"
 header:
     teaser: /assets/images/python_teaser_image.png
+    overlay_color: "#616261"
 ---
 
 ## Python 3.7 JupyterLab NixOs Container

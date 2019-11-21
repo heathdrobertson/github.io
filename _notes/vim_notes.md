@@ -5,6 +5,7 @@ excerpt: "Vim and NeoVim tools and configurations."
 toc_label: "Vim TOC"
 header:
     teaser: /assets/images/vim_teaser_image.png
+    overlay_color: "#616261"
 ---
 ## Tricks
 

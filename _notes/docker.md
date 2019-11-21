@@ -5,6 +5,7 @@ excerpt: "Docker Containers & Images"
 toc_label: "Docker TOC"
 header:
     teaser: /assets/images/docker_teaser_image.png
+    overlay_color: "#616261"
 ---
 
 

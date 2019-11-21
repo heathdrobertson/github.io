@@ -5,6 +5,7 @@ excerpt: "NixOs & Nix Shell Configurations"
 toc_label: "NixOs TOC"
 header:
     teaser: /assets/images/nixos_teaser_image.png
+    overlay_color: "#616261"
 ---
 ![Fractal Header](https://www.freewebheaders.com/wp-content/gallery/artistic-abstract/brown-fractal-abstract-design-header-2780.jpg)
 

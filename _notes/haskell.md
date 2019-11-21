@@ -5,6 +5,7 @@ excerpt: "Haskell and Jupyter Notebooks."
 toc_label: "Haskell TOC"
 header:
     teaser: /assets/images/haskell_teaser_image.png
+    overlay_color: "#616261"
 ---
 
 ## iHaskell JupyterLab

@@ -5,6 +5,7 @@ excerpt: "Jekyll website processes and tools to remember."
 toc_label: "Jekyll TOC"
 header:
     teaser: /assets/images/jekyll_teaser_image.png
+    overlay_color: "#616261"
 ---
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].

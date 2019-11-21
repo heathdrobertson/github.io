@@ -5,6 +5,7 @@ excerpt: "GitHub tools and configurations."
 toc_label: "GitHub TOC"
 header:
     teaser: /assets/images/github_teaser_image.png
+    overlay_color: "#616261"
 ---
 
 ## Git Configuration

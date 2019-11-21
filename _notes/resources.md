@@ -4,7 +4,7 @@ permalink: /notes/resources
 excerpt: "Resources related tools and future exploration."
 toc_label: "Resources TOC"
 header:
-    teaser: /assets/images/bash_teaser_image.png
+    overlay_color: "#616261"
 ---
 
 ## Books & Repos
