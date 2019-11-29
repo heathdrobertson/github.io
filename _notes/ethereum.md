@@ -1,6 +1,6 @@
 ---
 title: "Ethereum"
-permalink: /notes/bitcoin
+permalink: /notes/ethereum
 excerpt: "The Ethereum blockchain and Smart Contracts with Solidity"
 toc_label: "Ethereum TOC"
 header:
