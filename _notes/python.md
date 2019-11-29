@@ -8,11 +8,23 @@ header:
     overlay_color: "#616261"
 ---
 
-## Python 3.7 JupyterLab NixOs Container
+**A Docker container running NixOS with a Nix Shell**
+
+## Development Environment
+A Docker container running NixOS with a Nix Shell
+
+### Python 3.7 Interpreter:
+```bash
+docker run --rm --volumes-from=nix -it nixos/nix nix-shell -p python37Packages.pandas --run python3
+```
+
+### Python 3.7 JupyterLab NixOs Container
 
 1. `cd` into your working project directory.
-1. `git clone https://gist.github.com/97416ec041e3206a5a97e45c9a445dba.git`
-1. `mv 97416ec041e3206a5a97e45c9a445dba/ .config/`
+1. ```mkdir .config && touch .config/python.nix```
+1. Copy the contents of the Gist below to clip board.
+    1. Linux: ```xclip -o > .config/python.nix```
+    1. Mac: ```pbpaste > .config/python.nix```
 1. Build your NixOs Docker container with:
 ```bash
 docker run --rm --volumes-from=nix -it -v=$(pwd):/mnt -w=/mnt -e JUPYTER_ENABLE_LAB=yes -e HOME=/mnt -p=8080:8080 nixos/nix nix-shell /mnt/.config/python.nix
@@ -20,8 +32,11 @@ docker run --rm --volumes-from=nix -it -v=$(pwd):/mnt -w=/mnt -e JUPYTER_ENABLE_
 1. GitHub Gist
 <script src="https://gist.github.com/heathdrobertson/97416ec041e3206a5a97e45c9a445dba.js"></script>
 
+## Debugging
 
-## Jupyter Notebook Code Snippets
+## Testing
+
+## Code Snippets
 - [Python Style Guide (Google)](http://google.github.io/styleguide/pyguide.html)
 
 ### Notebook Install Python Packages (Pip)
@@ -58,3 +73,5 @@ import numpy as np
 x = np.arange(0.0,5.0,1.0)
 np.savetxt('test.out', x, delimiter=',')
 ```
+
+## Reference

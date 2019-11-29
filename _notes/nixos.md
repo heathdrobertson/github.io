@@ -1,18 +1,16 @@
 ---
 title: "NixOs"
 permalink: /notes/nixos
-excerpt: "NixOs & Nix Shell Configurations"
+excerpt: "NixOs & Nix Shell tools of the trade."
 toc_label: "NixOs TOC"
 header:
     teaser: /assets/images/nixos_teaser_image.png
     overlay_color: "#616261"
+    overlay_image: https://www.freewebheaders.com/wp-content/gallery/artistic-abstract/brown-fractal-abstract-design-header-2780.jpg
 ---
-![Fractal Header](https://www.freewebheaders.com/wp-content/gallery/artistic-abstract/brown-fractal-abstract-design-header-2780.jpg)
-
 ## NixOS & Nix Shell Container Configurations
 
-
-### Docker Data Container
+### Setting Up A Docker Data Container
 Used to collect the Nix packages that can be accessed from other containers.
 
 - Create a Docker data container named nix to use a shared persistent /nix for all your Nix containers.
@@ -20,7 +18,7 @@ Used to collect the Nix packages that can be accessed from other containers.
 ```bash
 docker create --name nix -v /nix nixos/nix sh
 ```
-- To list the volumes in the /nix volume and list al install nix packages.
+- To list the volumes in the /nix volume and list all installed nix packages.
 
 ```bash
 docker run --rm --volumes-from nix nixos/nix ls -la /nix
@@ -30,7 +28,6 @@ docker run --rm --volumes-from nix nixos/nix ls -la /nix
 ```bash
 docker run --rm --volumes-from=nix nixos/nix nix-collect-garbage -d
 ```
-
 
 ### Nix Shell with a Custom Nix Configuration
 - To use your own nix configuration within a container:
@@ -43,34 +40,6 @@ docker run --rm --volume=$(pwd):/home --volumes-from=nix -it nixos/nix nix-shell
 - GitHub Gist
 <script src="https://gist.github.com/heathdrobertson/b75c075475f4871eece8a372ad36f3af.js"></script>
 
-### Python 3.7 Interpreter:
-```bash
-docker run --rm --volumes-from=nix -it nixos/nix nix-shell -p python37Packages.pandas --run python3
-```
-
-### Jupyter Lab Notebook:
-
-- `cd` into your working directory.
-
-```bash
-mkdir .jupyter
-```
-```bash
-echo "c.NotebookApp.ip = '*'" > .jupyter/jupyter_notebook_config.py
-```
-```bash
-docker run --rm --volumes-from=nix -it -v $(pwd):/mnt -w /mnt -e HOME=/mnt -p 8080:8080 nixos/nix nix-shell -p python37Packages.numpy python37Packages.jupyterlab -p nodejs --run "jupyter lab --allow-root --ip=0.0.0.0 --port=8080"
-```
-
-- Settings > Advaced Settings > Enable Extensions to true.
-- The search for extension name and click install.
-- More complex build from nix file:
-
-```bash
-docker run --rm --volumes-from=nix -it -v=$(pwd):/mnt -w=/mnt -e HOME=/mnt -p=8080:8080 nixos/nix nix-shell /home/.config/python.nix
-```
-- GitHub Gist
-<script src="https://gist.github.com/heathdrobertson/97416ec041e3206a5a97e45c9a445dba.js"></script>
 
 
 ### Haskell Environment:
