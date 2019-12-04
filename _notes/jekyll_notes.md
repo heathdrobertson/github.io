@@ -7,50 +7,29 @@ header:
     teaser: /assets/images/jekyll_teaser_image.png
     overlay_color: "#616261"
 ---
+## Notes
+
+## Debugging
+
+## Testing
+
+## Code Snipets
+
+## Development Environment
+
+```bash
+docker run --rm --volumes-from=nix -it -v $(pwd):/home -w /home -p 4000:4000 nixos/nix nix-shell post.nix
+```
+
+<script src="https://gist.github.com/heathdrobertson/67601264548a648a6299c85f496decf3.js"></script>
+
+
+## Reference
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+### Tools
+* [HTML to Markdown] Don't leave home without it.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
-
-### Adding Collections
-Adding a *Notes* subsection to a site:
-1. Create a file ```_pages/notes.md```
-1. Add YAML Front Matter:
-```yaml
----
-title: Notes
-layout: collection
-permalink: /notes/
-collection: notes
-entries_layout: grid
-classes: wide
-  ---
-```
-
-1. Open ```_data/navigation.yml``` and add **Notes**. 
-```yaml
-- title: "Notes"
-  url: /notes/
-```
-
-1. Open ```_config.yml``` under the **Defaults** section add.
-```yaml
-# _notes
-defaults:
-- scope:
-  path: ""
-  type: notes
-values:
-  layout: single
-  author_profile: true
-  share: true
-  comment: true
-  teaser: true
-```
-
-1. Recompile the site to load the changes.
 
 ### Links
 
@@ -61,4 +40,7 @@ values:
 - [The internet’s source of freely useable images.](https://unsplash.com)
 
 
-
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+[HTML to Markdown]: https://www.browserling.com/tools/html-to-markdown

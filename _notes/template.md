@@ -7,16 +7,16 @@ header:
     teaser: /assets/images/nodejs_teaser_image.png
     overlay_color: "#616261"
 ---
-## Development Environment
-A Docker container running NixOS with a Nix Shell
-
-### Sub Section
+## Notes
 
 ## Debugging
 
 ## Testing
 
 ## Code Snipets
+
+## Development Environment
+A Docker container running NixOS with a Nix Shell
 
 ## Reference
 
