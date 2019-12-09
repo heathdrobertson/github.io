@@ -23,7 +23,7 @@ header:
 ### Running Ganache
 - The mnemonic can be changed, and is infact auto generated when running Truffle.  This is useful if you need to use the same accounts for testing and have to re-run the ganache server.
 ```bash
-ganache-cli --host 0.0.0.0 --networkId "codemonkey" --mnemonic "my dog is old and little i need a new dog"
+ganache-cli --host 0.0.0.0 --networkId "codemonkey" --mnemonic "my dog is old and little i need a new dog soon"
 ```
 
 
