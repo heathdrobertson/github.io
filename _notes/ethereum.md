@@ -20,6 +20,14 @@ header:
 
 ## Code Snippets
 
+### Running Ganache
+- The mnemonic can be changed, and is infact auto generated when running Truffle.  This is useful if you need to use the same accounts for testing and have to re-run the ganache server.
+```bash
+ganache-cli --host 0.0.0.0 --networkId "codemonkey" --mnemonic "my dog is old and little i need a new dog"
+```
+
+
+
 ### Setting up Web3 & Infura
 
 From a Nix shell run `node`.
@@ -89,10 +97,6 @@ docker run --rm --volumes-from=nix -it -v $(pwd):/app -w /app -p 3000:3000 -p 85
 | [Etherescan - Rinkeby](https://rinkeby.etherscan.io/blocks)
 | [Rinkeby IO](https://www.rinkeby.io/#stats)
 
-<div class="ltr">
-
-<div class="index-module--markdown--2MdcR ureact-markdown ">
-
 
 ### Ethereum GUI
 
@@ -114,5 +118,3 @@ docker run --rm --volumes-from=nix -it -v $(pwd):/app -w /app -p 3000:3000 -p 85
 [Truffle]: https://truffleframework.com/
 [Geth]: https://geth.ethereum.org/
 [Solidity]: https://solidity.readthedocs.io
-
-
