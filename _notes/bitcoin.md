@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin"
 permalink: /notes/bitcoin
-excerpt: "The Bitcoin blockchain and scripting using Bitcoin Core"
+excerpt: "The Bitcoin blockchain and scripting using Bitcoin Core."
 toc_label: "Bitcoin TOC"
 header:
     overlay_color: "#616261"
