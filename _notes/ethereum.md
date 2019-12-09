@@ -7,9 +7,10 @@ header:
     overlay_color: "#616261"
 ---
 ## Notes
+
 ### What is Gas
+
 - Gas is needed to incentivize miners to pick up and validate transactions. It's a small fee paid for the cost of each bit of code executed to complete a smart contract. While the gas is specific to execution costs, it can be converted to its equivalent value in ether and given to the miner as reward for their effort.
-<div class="index-module--markdown--2MdcR ureact-markdown ">
 
 
 ## Debugging
