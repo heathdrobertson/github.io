@@ -15,7 +15,6 @@ header:
 
 ## Debugging
 
-
 ## Testing
 
 ## Code Snippets
@@ -26,16 +25,14 @@ header:
 ganache-cli --host 0.0.0.0 --networkId "codemonkey" --mnemonic "my dog is old and little i need a new dog soon"
 ```
 
-
-
 ### Setting up Web3 & Infura
-
-From a Nix shell run `node`.
-
+- From a Nix shell run `node <file-name.js>`.
 ```javascript
 var Web3 = require('web3');
 var web3 = new Web3(Web3.givenProvider || 'https://rinkeby.infura.io/v3/<PROJECT-ID>');
 ```
+
+
 ## Development Environment
 A Docker container running NixOS with a Nix Shell
 
