@@ -20,9 +20,10 @@ header:
 ## Code Snippets
 
 ### Running Ganache
-- The mnemonic can be changed, and is infact auto generated when running Truffle.  This is useful if you need to use the same accounts for testing and have to re-run the ganache server.
+- The mnemonic can be changed, and is auto-generated when running Truffle or Ganache the first time, copy and save the twelve words.  This is useful if you need to use the same accounts for testing and have to re-run the Ganache server.
+- host 0.0.0.0 is set to serve from within a container.
 ```bash
-ganache-cli --host 0.0.0.0 --networkId "codemonkey" --mnemonic "my dog is old and little i need a new dog soon"
+ganache-cli --host 0.0.0.0 --mnemonic "twelve words provided by ganache the first time the command is run"
 ```
 
 ### Setting up Web3 & Infura
