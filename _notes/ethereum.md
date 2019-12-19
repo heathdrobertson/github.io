@@ -39,7 +39,7 @@ A Docker container running NixOS with a Nix Shell
 
 1. Build a container and install dependencies.
 ```bash
-docker run --rm --volumes-from=nix -it -v $(pwd):/app -w /app -p 3000:3000 -p 8545:8545 nixos/nix nix-shell /app/.config/build.nix
+docker run --rm --volumes-from=nix -it -v $(pwd):/app -w /app -p 3000:3000 -p 3001:3001 -p 8545:8545 nixos/nix nix-shell /app/.config/build.nix
 ```
 2. To run the container.
 ```bash
