@@ -16,7 +16,7 @@ Used to collect the Nix packages that can be accessed from other containers.
 - Create a Docker data container named nix to use a shared persistent /nix for all your Nix containers.
 
 ```bash
-docker create --name nix -v /nix nixos/nix sh
+docker create --name nix -v /nix --network toilethill-net nixos/nix sh
 ```
 - To list the volumes in the /nix volume and list all installed nix packages.
 
