@@ -14,6 +14,11 @@ header:
 %!python -m json.tool
 ```
 
+### Using TODO and `grep`
+- Use `TODO` in your code to mark tasks.
+- Mark `TODO⚡` when complete.
+- ```bash :grep TODO -r <path_to_file>```
+
 ### NeoVim Configuration File
 <script src="https://gist.github.com/heathdrobertson/5c3610fca1ed0a8fe8bff9faf85e1b7b.js"></script>
 
