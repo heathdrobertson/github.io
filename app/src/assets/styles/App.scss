@@ -1,0 +1,16 @@
+@import url("https://use.typekit.net/onq2xzx.css");
+@import './_variables.scss';
+
+html, body {
+    background-color: $secondary;
+    height: 100%;
+}
+.jumbotron {
+    background-color: $darkgray;
+    border-radius: 0;
+}
+
+.hr-modal {
+    background-color: $secondary;
+}
+
