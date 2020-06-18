@@ -1,8 +1,8 @@
-# Dapp Development
+# Dapp Research & Development
 > **Zeutle.io** 
 - Pediatric Executive Function & Self-Regulation
 
-# Blogging 
+# Blockchain & Digital Asset Research for Business Development.
 > **ToiletHill.io** 
 - Advancement of blockchain & digital asset adoption.
 
@@ -12,4 +12,3 @@
 - IPFS Node Hosting
 - Storj Node Hosting
 - HoloPort Hosting
-

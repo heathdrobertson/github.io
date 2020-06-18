@@ -1,4 +1,4 @@
-[PDF Resume Download](../)
+[Download PDF Resume](https://bit.ly/3depvXO "Heath Robertson Resume Download")
 
 # Entrepreneur / Designer / Developer
 
