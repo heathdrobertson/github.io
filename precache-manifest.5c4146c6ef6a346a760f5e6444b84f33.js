@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "04d0d740810dc7935d3b334067eb7223",
+    "revision": "573d57188b91fe1981ffc7c3faa91a13",
     "url": "/index.html"
   },
   {
-    "revision": "447438c2d9276bf41ddb",
+    "revision": "4d7e2f996338ccee0eff",
     "url": "/static/css/main.47748382.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.418fcbfa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "447438c2d9276bf41ddb",
-    "url": "/static/js/main.4cae806a.chunk.js"
+    "revision": "4d7e2f996338ccee0eff",
+    "url": "/static/js/main.875e295b.chunk.js"
   },
   {
     "revision": "4305ad129dcf89844c80",
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/res-design.4d946ded.bin"
   },
   {
-    "revision": "ef370e1e4b8e3b542a096e1274655f52",
-    "url": "/static/media/res-education.ef370e1e.bin"
+    "revision": "5d26e16050fdc98d508c5c57631c75b4",
+    "url": "/static/media/res-education.5d26e160.bin"
   },
   {
     "revision": "09809d152efc0eb5d2f84b686fa1ccf5",
